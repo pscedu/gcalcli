@@ -5,18 +5,18 @@
 ![Stars](https://img.shields.io/github/stars/pscedu/singularity-template)
 ![License](https://img.shields.io/github/license/pscedu/singularity-template)
 
-# singularity-template
+# singularity-gcalcli
 Singularity recipe for gcalcli.
 
 ## Installing the container on Bridges 2
 Copy the
 
 * `SIF` file
-* and the `template` script
+* and the `gcalcli` script
 
-to `/opt/packages/template/latest`.
+to `/opt/packages/gcalcli/4.5.0`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/template` as `latest.lua`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/template` as `4.5.0.lua`.
 
 ## Building the image using the recipe
 ### To build the image locally

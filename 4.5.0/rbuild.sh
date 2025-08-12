@@ -3,7 +3,7 @@
 # Copyright © 2025 Pittsburgh Supercomputing Center.
 # All Rights Reserved.
 
-IMAGE=singularity-TEMPLATE-VERSION.sif
+IMAGE=singularity-gcalcli-4.5.0.sif
 DEFINITION=Singularity
 
 if [ -f $IMAGE ]; then

@@ -9,16 +9,16 @@ Bootstrap: docker#
     SUPPORT help@psc.edu
     REPOSITORY http://gitub.com/pscedu/singularity-template 
     COPYRIGHT Copyright © 2025 Pittsburgh Supercomputing Center. All Rights Reserved.
-    VERSION version
+    VERSION 4.5.0
 
 %environment
     export LANG=C.UTF-8
     export LC_ALL=C.UTF-8
 
 %post
-    export DEBIAN_FRONTEND=noninteractive && apt-get update && \
-        apt-get install -y --no-install-recommends && apt-get clean && rm -rf /var/lib/apt/lists/*
+    apt update
+    apt-get -y install gcalcli
 
 
 %runscript
-    exec <PATH-TO-TOOL> "$@"
+    gcalcli "$@"

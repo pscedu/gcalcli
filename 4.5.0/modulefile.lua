@@ -24,11 +24,11 @@ To unload the module type
 
 Tools included in this module are
 
-* template
+* gcalcli
 ]])
 
-local package = "TEMPLATE"
-local version = "VERSION"
+local package = "gcalcli"
+local version = "4.5.0"
 local base    = pathJoin("/opt/packages", package, version)
 
 prepend_path("PATH", base)
