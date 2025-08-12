@@ -1,6 +1,4 @@
 Bootstrap: docker#
-#From: alpine
-#From: ubuntu:latest
 From: debian:latest
 
 %labels
