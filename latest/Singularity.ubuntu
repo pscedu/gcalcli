@@ -2,10 +2,10 @@ Bootstrap: docker
 From: ubuntu:latest
 
 %labels
-    MAINTAINER icaoberg
-    EMAIL icaoberg@psc.edu
+    MAINTAINER icaoberg, luism
+    EMAIL icaoberg@psc.edu, luism@psc.edu
     SUPPORT help@psc.edu
-    REPOSITORY http://gitub.com/pscedu/singularity-template
+    REPOSITORY http://gitub.com/pscedu/singularity-gcalcli
     COPYRIGHT Copyright © 2025 Pittsburgh Supercomputing Center. All Rights Reserved.
     VERSION version
 
@@ -24,6 +24,7 @@ From: ubuntu:latest
         git && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
+    sudo apt install gcalcli
 
 %runscript
     echo "Container built from ubuntu:latest"
