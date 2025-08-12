@@ -9,10 +9,10 @@ whatis("Name: gcalcli")
 whatis("Version: 4.5.0")
 whatis("Category: Utilities")
 whatis("URL: https://www.psc.edu/resources/software")
-whatis("Description: DESCRIPTION")
+whatis("Description: gcalcli is a Python application that allows you to access your Google Calendar(s) from a command line. It's easy to get your agenda, search for events, add new events, delete events, edit events, see recently updated events, and even import those annoying ICS/vCal invites from Microsoft Exchange and/or other sources. Additionally, gcalcli can be used as a reminder service and execute any application you want when an event is coming up.")
 
 help([[
-DESCRIPTION
+gcalcli is a Python application that allows you to access your Google Calendar(s) from a command line. It's easy to get your agenda, search for events, add new events, delete events, edit events, see recently updated events, and even import those annoying ICS/vCal invites from Microsoft Exchange and/or other sources. Additionally, gcalcli can be used as a reminder service and execute any application you want when an event is coming up.
 
 To load the module type
 
