@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Install useful utilities
-      run: sudo apt-get install -y tree
+      run: sudo apt install gcalcli
 
     - name: Checking if LICENSE exists
       run: |
