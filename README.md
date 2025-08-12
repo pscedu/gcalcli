@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-template)
 
 # singularity-template
-Singularity recipe for GIMP.
+Singularity recipe for gcalcli.
 
 ## Installing the container on Bridges 2
 Copy the
