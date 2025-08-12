@@ -16,11 +16,11 @@ gcalcli is a Python application that allows you to access your Google Calendar(s
 
 To load the module type
 
-> module load template/VERSION
+> module load gcalcli/4.5.0 
 
 To unload the module type
 
-> module unload template/VERSION
+> module unload gcalcli/4.5.0
 
 Tools included in this module are
 
