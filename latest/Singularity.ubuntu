@@ -24,7 +24,6 @@ From: ubuntu:latest
         git && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
-    sudo apt install gcalcli
 
 %runscript
     echo "Container built from ubuntu:latest"
