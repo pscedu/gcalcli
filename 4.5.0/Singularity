@@ -1,7 +1,7 @@
 Bootstrap: docker#
 #From: alpine
 #From: ubuntu:latest
-#From: debian:latest
+From: debian:latest
 
 %labels
     MAINTAINER icaoberg, luism
