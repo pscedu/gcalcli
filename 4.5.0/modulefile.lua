@@ -5,9 +5,9 @@
 -- "Category: CATEGORY"
 -- "Description: DESCRIPTION"
 
-whatis("Name: template")
-whatis("Version: VERSION")
-whatis("Category: Graphics")
+whatis("Name: gcalcli")
+whatis("Version: 4.5.0")
+whatis("Category: Utilities")
 whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: DESCRIPTION")
 
